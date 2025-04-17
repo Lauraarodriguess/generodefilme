@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch case</title>
+</head>
+<body>
+    <center>
+        <h1>Switch Case</h1>
+
+        <script>
+            //criar uma variavel para escolher a opção
+            var opcao = parseInt (prompt(`Selecione o seu gênero de filme favorito:
+            1- Ação
+            2- Comédia
+            3- Drama
+            4- Terror
+            5- Ficção científica
+            6- Romance`
+            ))
+
+            switch (opcao) {
+                case 1:
+                document.write ("Seu estilo favorito de filme é: Ação")
+                break;
+                case 2:
+                document.write("Seu estilo favorito de filme é: Comédia")
+                break;
+                case 3:
+                document.write("Seu estilo favorito de filme é: Drama")
+                break;
+                case 4:
+                document.write("Seu estilo favorito de filme é: Terror")
+                break;
+                case 5:
+                document.write("Seu estilo favorito de filme é: Ficção científica")
+                break;
+                case 6:
+                document.write("Seu estilo favorito de filme é: Romance")
+                break;
+                default:
+                document.write("Opção inválida!")
+            }
+        </script>
+    </center>
+</body>
+</html>
